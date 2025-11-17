@@ -1,0 +1,207 @@
+Scheduler report for : dout_m_req_gen_prev_trig_reg
+---------------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.m_req.m_prev_tr  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.m_trig_re  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.m_prev_tr  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : dout_m_req_gen_active
+--------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.m_req.m_prev_tr  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.m_trig_re  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.gen_activ  4 (3:FALSE)      --              FALSE  dut.h,l:41,c:38
+
+dout.m_req.active.do  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : dout_gen_vld
+-----------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.m_req_active.do  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_unacked_req.d  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.gen_vld          4 (3:FALSE)      --              FALSE  dut.h,l:41,c:38
+
+dout.vld.dout.gen_vl  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : dout_m_req_gen_next_trig_reg
+---------------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.m_req.m_trig_re  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.gen_next_  4 (3:FALSE)      --              FALSE  dut.h,l:41,c:38
+
+dout.m_req.m_next_tr  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : din_gen_unvalidated_req
+----------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+din.m_unvalidated_re  5 (4:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din                   7 (6:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_unvalidated_re  8 (7:TRUE)       --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_req_0.din  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.vld.din.gen_unva  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.gen_unvalidated_  9 (8:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_unvalidated_re  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : din_gen_do_stall_reg_full
+------------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+din.m_stall_reg_full  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_stalling.din.g  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_data_is_valid.  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.gen_do_stall_reg  8 (7:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_stall_reg_full  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : thread_function
+--------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+din.m_busy_req_0.res  3 (2:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_stalling.reset  3 (2:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_req.m_trig_re  3 (2:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_req_0.get  6 (5:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din                   8 (7:TRUE)       --              FALSE  dut.h,l:40,c:37
+
+thread_function::get  8 (7:TRUE)       --              FALSE  dut.cc,l:29,c:11 mapped
+
+din.data.get::nb_get  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_req_0.get  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+f                     9 (8:FALSE)      --              FALSE  dut.cc,l:47,c:19
+
+dout.data.put::nb_pu  11 (10:FALSE)    --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout                  11 (10:FALSE)    --              FALSE  dut.h,l:41,c:38
+
+dout.m_req.m_trig_re  11 (10:FALSE)    --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout                  13 (12:TRUE)     --              FALSE  dut.h,l:41,c:38
+
+thread_function::put  13 (12:TRUE)     --              FALSE  dut.cc,l:29,c:11 mapped
+
+
+Scheduler report for : dout_gen_stalling
+----------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.vld.dout.gen_st  4 (3:TRUE)       --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.busy.dout.gen_s  5 (4:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.gen_stalling     5 (4:FALSE)      --              FALSE  dut.h,l:41,c:38
+
+dout.m_stalling.dout  5 (4:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : dout_gen_unacked_req
+-------------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+dout.m_unacked_req.d  4 (3:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_stalling.dout  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+dout.m_unacked_req.d  8 (7:FALSE)      --              FALSE  @(f:dut.h,l:41,c:38->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : din_gen_do_reg_vld
+-----------------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+din.m_vld_reg.din.ge  5 (4:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din                   7 (6:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_vld_reg.din.ge  8 (7:TRUE)       --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_internal.  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.vld.din.gen_do_r  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.gen_do_reg_vld::  9 (8:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_vld_reg.din.ge  9 (8:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+
+Scheduler report for : din_gen_busy
+-----------------------------------
+
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC
+--                    ---------------  --------------  --     ------
+
+din.vld.din.gen_busy  4 (3:TRUE)       --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_unvalidated_re  6 (5:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_req_0.din  6 (5:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_data_is_invali  6 (5:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.gen_busy          6 (5:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.gen_busy          6 (5:FALSE)      --              FALSE  dut.h,l:40,c:37
+
+din.m_data_is_invali  6 (5:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_busy_internal.  7 (6:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.busy.din.gen_bus  7 (6:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_data_is_valid.  7 (6:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+din.m_data_is_invali  7 (6:FALSE)      --              FALSE  @(f:dut.h,l:40,c:37->f:/cad/cadence/STRATUS_23.02.
+
+

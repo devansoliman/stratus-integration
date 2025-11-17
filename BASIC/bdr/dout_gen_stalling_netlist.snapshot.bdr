@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<netlist>
+	<module_name>dout_gen_stalling</module_name>
+	<signal>
+		<name>MUX_N28</name>
+		<datatype W="1">bool</datatype>
+		<async/>
+	</signal>
+	<thread>
+		<name>MUX_N28</name>
+		<async/>
+		<lhs>
+			<name>MUX_N28</name>
+		</lhs>
+		<rhs>
+			<name>dout_busy</name>
+		</rhs>
+		<mux_area>0.0000</mux_area>
+		<mux_delay>0.0000</mux_delay>
+		<control_delay>0.0000</control_delay>
+	</thread>
+	<signal>
+		<name>MUX_N30</name>
+		<datatype W="1">bool</datatype>
+		<async/>
+	</signal>
+	<thread>
+		<name>MUX_N30</name>
+		<async/>
+		<lhs>
+			<name>MUX_N30</name>
+		</lhs>
+		<rhs>
+			<name>dout_vld</name>
+		</rhs>
+		<mux_area>0.0000</mux_area>
+		<mux_delay>0.0000</mux_delay>
+		<control_delay>0.0000</control_delay>
+	</thread>
+	<signal>
+		<name>dut_And_1Ux1U_1U_4_7_out1</name>
+		<source_loc>21747</source_loc>
+		<datatype W="1">bool</datatype>
+		<async/>
+	</signal>
+	<module_inst>
+		<name>dut_And_1Ux1U_1U_4</name>
+		<instance_name>dut_And_1Ux1U_1U_4_7</instance_name>
+		<port_conn>in2,MUX_N28</port_conn>
+		<port_conn>in1,MUX_N30</port_conn>
+		<port_conn>out1,dut_And_1Ux1U_1U_4_7_out1</port_conn>
+		<source_loc>17304</source_loc>
+	</module_inst>
+	<signal>
+		<name>MUX_N23</name>
+		<source_loc>17301</source_loc>
+		<datatype W="1">bool</datatype>
+		<async/>
+	</signal>
+	<thread>
+		<name>MUX_N23</name>
+		<async/>
+		<lhs>
+			<name>MUX_N23</name>
+		</lhs>
+		<rhs>
+			<name>dut_And_1Ux1U_1U_4_7_out1</name>
+		</rhs>
+		<mux_area>0.0000</mux_area>
+		<mux_delay>0.0000</mux_delay>
+		<control_delay>0.0000</control_delay>
+	</thread>
+</netlist>

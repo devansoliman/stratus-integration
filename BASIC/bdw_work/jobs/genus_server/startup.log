@@ -1,0 +1,38 @@
+TMPDIR is being set to /tmp/genus_temp_14081_rsgvm14.stanford.edu_devansol_jYbEGP
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (10 seconds elapsed).
+
+#@ Processing -files option
+@genus 1> source /cad/cadence/STRATUS_23.02.002_lnx86/tools.lnx86/bin/bdw_genus_server
+  Setting attribute of root '/': 'write_verification_files' = false
+  Setting attribute of root '/': 'dp_area_mode' = true
+  Setting attribute of root '/': 'multibit_mapping_effort_level' = low
+  Setting attribute of root '/': 'map_to_multiple_output_gates' = false
+  Setting attribute of root '/': 'auto_super_thread' = false
+  Setting attribute of root '/': 'max_cpus_per_server' = 0
+  Setting attribute of root '/': 'retime_verification_flow' = false
+  Setting attribute of root '/': 'retime_disable_all_transitive_drvrs' = 1
+  Setting attribute of root '/': 'legacy_collection' = true
+  Setting attribute of root '/': 'dp_analytical_opt' = off
+  Setting attribute of root '/': 'dp_rewriting' = none
+  Setting attribute of root '/': 'dp_sharing' = none
+  Setting attribute of root '/': 'dp_speculation' = none
+Warning : Partition Based Synthesis (PBS) is turned off. Expect very long runtime. [PBS-3]
+  Setting attribute of root '/': 'partition_based_synthesis' = false
+  Setting attribute of root '/': 'auto_partition' = false
+Sourcing '/cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/tcl/bdw_generic_server.tcl' (Wed Nov 12 22:15:53 PST 2025)...
+Sourcing '/cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/tcl/Messaging.tcl' (Wed Nov 12 22:15:53 PST 2025)...
+##########################################################################
+# Starting in server mode with port 40067@Linux
+#   client pid = 14076
+##########################################################################
+
+[22:30:44.466304] Periodic Lic check successful
+[22:30:44.466307] Feature usage summary:

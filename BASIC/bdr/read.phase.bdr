@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<tool_log>
+	<message>
+		<code_num>1727</code_num>
+		<severity>NOTE</severity>
+		<message_text>Using Genus 21.15-s080_1.</message_text>
+		<phase>read</phase>
+		<order>2</order>
+	</message>
+	<time_units>ns</time_units>
+	<message>
+		<code_num>1277</code_num>
+		<severity>NOTE</severity>
+		<message_text>Using a clock period of 4.500ns (5.000ns less 0.500ns slack).</message_text>
+		<phase>read</phase>
+		<order>3</order>
+	</message>
+	<cycle_time>5.0000</cycle_time>
+	<cycle_slack>0.5000</cycle_slack>
+	<message>
+		<code_num>1037</code_num>
+		<severity>NOTE</severity>
+		<message_text>Characterizing multiplexors up to 1 bits by 33 inputs.</message_text>
+		<phase>read</phase>
+		<order>4</order>
+	</message>
+	<message>
+		<code_num>860</code_num>
+		<severity>NOTE</severity>
+		<message_text>Long int data types are being implemented with 64 bits.</message_text>
+		<phase>read</phase>
+		<order>5</order>
+	</message>
+	<create_ops/>
+	<snapshot>
+		<path>bdr/read.snapshot.bdr</path>
+		<name>read</name>
+	</snapshot>
+	<phase_complete>read</phase_complete>
+</tool_log>

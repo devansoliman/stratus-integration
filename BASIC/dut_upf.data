@@ -1,0 +1,12 @@
+set BDW_UPF_dut_INPUT_PORTS {
+	clk
+	rst
+	din_vld
+	din_data
+	dout_busy
+}
+set BDW_UPF_dut_OUTPUT_PORTS {
+	din_busy
+	dout_vld
+	dout_data
+}

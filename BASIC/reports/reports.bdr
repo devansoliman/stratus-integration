@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<report_catalogue>
+	<report_file>
+		<report_def>
+			<name>power</name>
+			<summary>Reports both summary and details of the clock gating on registers in the RTL produced by stratus_hls.</summary>
+			<unprintable/>
+			<node_kind>hls_config</node_kind>
+		</report_def>
+		<path>power.rpt</path>
+		<object>hls_config:simple_p2p/dut/BASIC</object>
+		<silent/>
+		<time>Wed Nov 12 22:15:56 2025</time>
+		<hostname>rsgvm14.stanford.edu</hostname>
+		<user>devansol</user>
+		<version>23.02-s002</version>
+	</report_file>
+	<report_file>
+		<report_def>
+			<name>scheduler</name>
+			<summary>Reports all of the operations scheduled in each thread.</summary>
+			<unprintable/>
+			<node_kind>hls_config</node_kind>
+		</report_def>
+		<name>scheduler</name>
+		<path>scheduler.rpt</path>
+		<object>hls_config:simple_p2p/dut/BASIC</object>
+		<silent/>
+		<time>Wed Nov 12 22:21:42 2025</time>
+		<hostname>rsgvm14.stanford.edu</hostname>
+		<user>devansol</user>
+		<version>23.02-s002</version>
+	</report_file>
+</report_catalogue>

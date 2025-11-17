@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<tool_log>
+	<include>bdr/dout_m_req_gen_prev_trig_reg.sched.phase.bdr</include>
+	<include>bdr/dout_m_req_gen_active.sched.phase.bdr</include>
+	<include>bdr/dout_gen_vld.sched.phase.bdr</include>
+	<include>bdr/dout_m_req_gen_next_trig_reg.sched.phase.bdr</include>
+	<include>bdr/din_gen_unvalidated_req.sched.phase.bdr</include>
+	<include>bdr/din_gen_do_stall_reg_full.sched.phase.bdr</include>
+	<include>bdr/thread_function.sched.phase.bdr</include>
+	<include>bdr/dout_gen_stalling.sched.phase.bdr</include>
+	<include>bdr/dout_gen_unacked_req.sched.phase.bdr</include>
+	<include>bdr/din_gen_do_reg_vld.sched.phase.bdr</include>
+	<include>bdr/din_gen_busy.sched.phase.bdr</include>
+	<snapshot>
+		<path>bdr/sched.snapshot.bdr</path>
+		<name>sched</name>
+	</snapshot>
+	<stable_time>
+		<name>dout_m_req_m_trig_req</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_stalling</name>
+		<time> 4.863</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_busy_req_0</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_data</name>
+		<time> 0.114</time>
+	</stable_time>
+	<input_delay>
+		<name>din_data</name>
+		<time> 0.114</time>
+	</input_delay>
+	<stable_time>
+		<name>dout_data</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_data_is_invalid</name>
+		<time> 4.934</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_m_req_m_next_trig_req</name>
+		<time> 0.133</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_m_stalling</name>
+		<time> 4.934</time>
+	</stable_time>
+	<stable_time>
+		<name>rst</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_vld</name>
+		<time> 4.743</time>
+	</stable_time>
+	<input_delay>
+		<name>din_vld</name>
+		<time> 0.114</time>
+	</input_delay>
+	<stable_time>
+		<name>din_m_unvalidated_req</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_busy_internal</name>
+		<time> 4.845</time>
+	</stable_time>
+	<stable_time>
+		<name>din_busy</name>
+		<time> 0.279</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_data_is_valid</name>
+		<time> 4.863</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_stall_reg_full</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>din_m_vld_reg</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_m_req_active</name>
+		<time> 0.185</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_m_unacked_req</name>
+		<time> 0.114</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_vld</name>
+		<time> 0.254</time>
+	</stable_time>
+	<stable_time>
+		<name>dout_busy</name>
+		<time> 4.863</time>
+	</stable_time>
+	<input_delay>
+		<name>dout_busy</name>
+		<time> 0.114</time>
+	</input_delay>
+	<stable_time>
+		<name>dout_m_req_m_prev_trig_req</name>
+		<time> 0.114</time>
+	</stable_time>
+	<phase_complete>sched</phase_complete>
+	<phase_summary>
+		<phase_complete>sched</phase_complete>
+		<summary>Scheduling and allocation complete: 11 threads, 65 ops.</summary>
+	</phase_summary>
+</tool_log>
