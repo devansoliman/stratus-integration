@@ -1,0 +1,33 @@
+>>> Thu Nov 20 12:18:37 PST 2025 : export_dfg starting (config=BASIC, behavior=thread_function)
+Found 22 operations in behavior 'thread_function'
+### DATA FLOW GRAPH NODES (op_id | name | kind | src_links) ###
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP37 | OP37 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1515:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP38 | OP38 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1535:33
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP39 | OP39 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_comm_util.h:1401:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP40 | OP40 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1599:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP41 | OP41 | input | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1464:9
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP42 | OP42 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1464:9
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP43 | OP43 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1631:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP44 | OP44 | input | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1732:20
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP45 | OP45 | mul | dut.cc:57:18
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP46 | OP46 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:5330:13
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP47 | OP47 | input | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_comm_util.h:1394:13
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP48 | OP48 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_comm_util.h:1394:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP49 | OP49 | input | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:5106:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP50 | OP50 | output | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:5106:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP51 | OP51 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1515:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP52 | OP52 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1599:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP53 | OP53 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:1631:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP54 | OP54 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_p2p.h:5330:13
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP55 | OP55 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_comm_util.h:1401:7
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP56 | OP56 | reg | /cad/cadence/STRATUS_23.02.002_lnx86/share/stratus/include/cynw_comm_util.h:1394:2
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP57 | OP57 | const |
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP58 | OP58 | const |
+### DATA FLOW EDGES (src_op -> dst_op) ###
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP37 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP51
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP39 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP55
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP40 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP52
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP43 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP53
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP46 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP54
+op:simple_p2p/dut/BASIC/rtl/thread_function/OP48 -> op:simple_p2p/dut/BASIC/rtl/thread_function/OP56
+>>> Thu Nov 20 12:18:37 PST 2025 : export_dfg finished
