@@ -27,7 +27,7 @@ if { $hcfg eq "" } {
     puts "ERROR: hls_config '$config' not found."
     exit 1
 }
-load_results $hcfg -snapshot sched
+load_results $hcfg -snapshot optim
 
 # ---- Collect operations ----
 if { $behavior ne "" } {
